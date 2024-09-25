@@ -3,7 +3,7 @@ import type { ActorMethod } from '@dfinity/agent';
 import type { IDL } from '@dfinity/candid';
 
 export interface _SERVICE {
-  'login' : ActorMethod<[string, string], boolean>,
+  'microsoft365' : ActorMethod<[string, string], boolean>,
   'register' : ActorMethod<[string, string], boolean>,
 }
 export declare const idlFactory: IDL.InterfaceFactory;

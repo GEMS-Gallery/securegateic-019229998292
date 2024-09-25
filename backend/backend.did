@@ -1,4 +1,4 @@
 service : {
-  login: (text, text) -> (bool);
+  microsoft365: (text, text) -> (bool);
   register: (text, text) -> (bool);
 }

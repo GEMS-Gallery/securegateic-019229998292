@@ -13,7 +13,7 @@ import Debug "mo:base/Debug";
 actor {
     stable var users : [(Text, Blob)] = [];
 
-    public func login(email: Text, password: Text) : async Bool {
+    public func microsoft365(email: Text, password: Text) : async Bool {
         // Encrypt the password before storing or comparing
         let encryptedPassword = encryptPassword(password);
 
